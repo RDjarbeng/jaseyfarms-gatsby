@@ -3,9 +3,9 @@ import Header from './Header/header';
 import Footer from './Footer/Footer';
 //CSS styles
 
-import './style.css';
+import './style.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
+import './App.scss';
 // import AOS from "aos";//trying to implement aos
 
 

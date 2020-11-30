@@ -4,7 +4,7 @@ import BenefitCards from './BenefitCards';
 
 export default function ProjectBenefits(){
     return(
-        <section id="projects-benefits" className="bg-warning" style={{borderTop: '2px solid black'}}>
+        <section id="projects-benefits" className="bg-success" style={{borderTop: '2px solid black'}}>
             <div className="container project-con section-title-2">
                 <SectionTitle
                     title ="PROJECT BENEFITS"

@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { graphql, useStaticQuery } from 'gatsby'
+import images from '../../content/homePageCarousel.json'
 
 export default function Carousels() {
     const data = useStaticQuery(graphql`
@@ -15,7 +16,8 @@ export default function Carousels() {
     }
   }
   `)
-    const { image1, image2, image3, vision } = data.markdownRemark.frontmatter
+    // const {  vision } = data.markdownRemark.frontmatter
+    const {image1, image2, image3, caption}= images
     return(
             <section id="intro">    
             <Carousel className="img-hidden">
@@ -46,13 +48,13 @@ export default function Carousels() {
                 </Carousel>
 
                 <div className="row ml-0 mr-0 logo-info">
-                    <div className="col-md-2 text-white p-2 text-center vision-heading-col">
+                    {/* <div className="col-md-2 text-white p-2 text-center vision-heading-col">
                         <h6 className="intro-text">Our Vision</h6>
-                    </div>
-                    <div className="col-md-10 bg-warning p-2 text-center cursive-heading ">
+                    </div> */}
+                    <div className="col bg-warning p-2 text-center cursive-heading ">
                     <h6 className="intro-text">
                         {/* To build a world-className listed mining firm with a chain of large-scale mines across Ghana and West Africa. */}
-                        {vision}
+                        {caption}
                     </h6>
                     </div>
                 </div>
