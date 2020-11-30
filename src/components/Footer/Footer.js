@@ -24,13 +24,16 @@ export default function Footer(){
           <div className="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
                 <p><strong>Location:</strong><br />
-                  {<ReactMarkdownWithHtml children={data.locationInfo} allowDangerousHtml />}
+                  <div>{data.locationInfo}</div>
+                  {/* {<ReactMarkdownWithHtml children={data.locationInfo} allowDangerousHtml />} */}
             {/* H/No. C684 <br />
             Nii Kwamena Bonnie Crescent<br />
             Dzorwulu, Accra, Ghana<br /><br /> */}
 
                   <strong>Postal Address:</strong> <br />
-                  {<ReactMarkdownWithHtml children={data.postalInfo} allowDangerousHtml />}
+                  {/* {<ReactMarkdownWithHtml children={data.postalInfo} allowDangerousHtml />}
+                   */}
+                  <div>{data.postalInfo}</div>
               <br />
             </p>
 
@@ -40,16 +43,18 @@ export default function Footer(){
             
             <div>
                   <strong className="font-weight-bold">Phone:</strong>
-                  {<ReactMarkdownWithHtml children={data.phoneInfo} allowDangerousHtml />}
+                  <div>{data.phoneInfo}</div>
                   <br />
                   <strong>Email:</strong><br /> 
-                  {<ReactMarkdownWithHtml children={data.emailInfo} allowDangerousHtml />}
+                  <div> {data.emailInfo} </div>
             </div>
           </div>
 
           <div className="col-lg-3 col-md-6 footer-info">
             <h3> Careers</h3>
-                {<ReactMarkdownWithHtml children={data.careers} allowDangerousHtml />}
+                <div>
+                  {data.careers}
+                </div>
             <br />
 
             {/* <a href="contact.html" className="text-dark" > </a>*/}

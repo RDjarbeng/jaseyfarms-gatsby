@@ -1,11 +1,11 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
-import ProjectCards from './ProjectCards';
+import ProductCards from './ProductCards';
 import { graphql, useStaticQuery } from 'gatsby'
 
 
 
-export default function ProjectSection() {
+export default function ProductSection() {
   const data = useStaticQuery(graphql`
       query{
         allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/HomeProjects/i"}}, sort: {fields: frontmatter___title}) {
@@ -29,7 +29,7 @@ export default function ProjectSection() {
             title="Our Products" 
             subtitle="We highly recommend you place an order by using the option below:"
             />
-            <ProjectCards content ={projects} />
+          <ProductCards content ={projects} />
           </div>
         </section>
     );

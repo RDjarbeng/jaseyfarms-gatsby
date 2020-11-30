@@ -4,7 +4,7 @@ import ReadMoreAndLess from 'react-read-more-less';
 import ReactMarkdownWithHtml from "react-markdown/with-html";
 
 
-export default function ProjectCards(props) {
+export default function ProductCards() {
   return (
     <div className="row pt-2 pb-3 shadow mb-2">
       <div className="col-md-4 px-3 pb-2 ">

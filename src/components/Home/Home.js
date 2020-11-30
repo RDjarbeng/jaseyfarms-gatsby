@@ -1,7 +1,7 @@
 import React from 'react';
-import ProjectSection from './ProjectSection';
+import ProjectSection from './ProductSection';
 import Carousels from './Carousel';
-import ProjectBenefits from './ProjectBenefits';
+import ProductBenefits from './ProductBenefits';
 import InvestorSection from './InvestorSection';
 import CompanyHighlight from './CompanyHighlight';
 
@@ -10,9 +10,9 @@ export default function Home(){
         <React.Fragment>
             <Carousels />
             <ProjectSection />
-            <ProjectBenefits />
-            <InvestorSection />
-            <CompanyHighlight />
+            <ProductBenefits />
+            {/* <InvestorSection /> */}
+            {/* <CompanyHighlight /> */}
         </React.Fragment>
     );
 }
