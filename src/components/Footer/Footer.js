@@ -62,7 +62,7 @@ export default function Footer(){
     </div>
     <div className="container-fluid p-0" style={{backgroundColor:'ash'}}>
       <p className="copyright mb-0">
-        &copy; Copyright {new Date().getFullYear()} <strong><span>Bugudon Ltd</span></strong>. All Rights Reserved. Developed and maintained by <a href="https://sterde.com">Sterde</a>
+            &copy; Copyright {(new Date().getFullYear() > 2020) ? new Date().getFullYear() : '2020'} <strong><span>Jasey Farms Ltd</span></strong>. All Rights Reserved. Developed and maintained by <a href="https://sterde.com" style={{ color: "#fdb305"}}>Sterde</a>
       </p>
     </div>
     <span className="back-to-top"><i className="icofont-simple-up"></i></span>

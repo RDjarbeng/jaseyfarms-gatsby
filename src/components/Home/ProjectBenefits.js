@@ -4,11 +4,11 @@ import BenefitCards from './BenefitCards';
 
 export default function ProjectBenefits(){
     return(
-        <section id="projects-benefits" className="bg-success" style={{borderTop: '2px solid black'}}>
+        <section id="projects-benefits" className="" style={{borderTop: '2px solid black'}}>
             <div className="container project-con section-title-2">
                 <SectionTitle
-                    title ="PROJECT BENEFITS"
-                    subtitle="Proponents of Bugudon Limited believe that their proposed project will benefit all stakeholder stated as follows:"
+                    title ="BENEFITS"
+                    subtitle="A diet rich in vegetables can:"
                 />
                 <BenefitCards />
             </div>

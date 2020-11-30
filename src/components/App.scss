@@ -1,4 +1,5 @@
 $primaryColor:  #018903e0;
+$veryLight-green-bg : #13d00426;
 .App {
   text-align: center;
 }
@@ -46,4 +47,8 @@ $primaryColor:  #018903e0;
 
 .nav-menu a,a{
   color: $primaryColor
+}
+
+#projects-benefits{
+  background-color: $veryLight-green-bg
 }
