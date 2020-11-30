@@ -1,13 +1,33 @@
 $primaryColor:  #018903e0;
 $veryLight-green-bg : #13d00426;
+$navHeight: 70px;
+$lightBg: #05dd27ab;
+$darkBg: #018903e0;
 .App {
   text-align: center;
 }
 
+#nav1{
+  height:$navHeight ;
+}
+#navImg{
+  height:$navHeight ;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+.benefit-card{
+  background-color: $darkBg;
+  color: white;
+}
+
+.benefit-card:nth-child(even){
+  background-color: $lightBg
+}
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -44,27 +44,36 @@ export default function BenefitCards() {
 
   return (
     // benefit cards
-    <div className="row mt-2 mb-3">
-      <div className="col-md-3 p-2 ">
-        <div className="shadow card border-0 h-100 ">
+    <div className="row mt-2 mb-3 px-1 benefits-section card-columns">
+      <div className="col-md-3 p-2 card benefit-card">
+        <div className="  border-0 h-100 ">
           <div className="card-body pl-2 pr-2 pt-0 ">
-            <h5 className="card-title text-center font-weight-bold mb-0">Title ipsum dolor</h5>
-            <div className="card-text mb-0">
-              Lorem, ipsum dolor
-            </div>
+              Title ipsum dolor
           </div>
         </div>
       </div>
-      <div className="col-md-3 p-2 ">
-        <div className="shadow card border-0 h-100 ">
+      <div className="col-md-3 p-2 card benefit-card">
+        <div className="  border-0 h-100 ">
           <div className="card-body pl-2 pr-2 pt-0 ">
-            <h5 className="card-title text-center font-weight-bold mb-0">Title ipsum dolor</h5>
-            <div className="card-text mb-0">
-              Lorem, ipsum dolor
-            </div>
+              Title ipsum dolor
           </div>
         </div>
       </div>
+      <div className="col-md-3 p-2 card benefit-card">
+        <div className="  border-0 h-100 ">
+          <div className="card-body pl-2 pr-2 pt-0 ">
+            Title ipsum dolor
+          </div>
+        </div>
+      </div>
+      <div className="col-md-3 p-2 card benefit-card">
+        <div className="  border-0 h-100 ">
+          <div className="card-body pl-2 pr-2 pt-0 ">
+            Title ipsum dolor
+          </div>
+        </div>
+      </div>
+      
       
     </div>
   );

@@ -6,7 +6,7 @@ import { Link } from 'gatsby';
 
 export default function Header() {
         return (
-                <header id="nav1" style={{ height: 40 }}>
+                <header id="nav1" >
                         <Navbar expand="lg" bg="light" variant="light" collapseOnSelect
                                 className="navbar navbar-expand-lg navbar-light bg-white p-0 nav-menu shadow"
                         >
@@ -17,11 +17,13 @@ export default function Header() {
                                 {/* <div className="collapse navbar-collapse" id="navbarTogglerDemo01"> */}
                                 <Navbar.Collapse id="responsive-navbar-nav">
                                         <Navbar.Brand >
+                                                <div >
                                                 <Link className="navbar-brand p-0
-                                                 mr-auto" to="/"> <img src="/img/log.jpg" alt="logo" className="logo-img d-inline-block align-top
-                                                 " /></Link>
+                                                 mr-auto p-1" to="/"> <img id='navImg' src="/img/JaseyFarms_new_full_Logo.jpeg" alt="logo" className=" d-inline-block align-top img-fluid       
+                                                 " style={{ height: "" }} /></Link>
+                                                </div>
                                         </Navbar.Brand>
-                                        <Nav className="navbar-nav  mt-2 mt-lg-0 mr-xl-5 ml-xl-auto">
+                                        <Nav className="navbar-nav  mt-2 mt-lg-0 mr-xl-5 ml-md-auto">
                     <Nav.Link className="nav-item">
                             <Link activeClassName="active" to="/">Home</Link></Nav.Link>
                     <Nav.Link className="nav-item">
