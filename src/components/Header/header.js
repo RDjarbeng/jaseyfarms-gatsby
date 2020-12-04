@@ -51,7 +51,7 @@ export default function Header() {
               </Link>
             </Nav.Link>
             <Nav.Link className="nav-item">
-              <Link to="/company" activeClassName="active">
+              <Link to="/ourvegetables" activeClassName="active">
                 Our Vegetable
               </Link>
             </Nav.Link>
