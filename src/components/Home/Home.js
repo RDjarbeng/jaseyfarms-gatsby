@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectSection from './ProductSection';
+import ProductSection from './ProductSection';
 import Carousels from './Carousel';
 import ProductBenefits from './ProductBenefits';
 import InvestorSection from './InvestorSection';
@@ -9,7 +9,7 @@ export default function Home(){
     return(
         <React.Fragment>
             <Carousels />
-            <ProjectSection />
+            <ProductSection />
             <ProductBenefits />
             {/* <InvestorSection /> */}
             {/* <CompanyHighlight /> */}

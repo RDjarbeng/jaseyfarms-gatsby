@@ -1,35 +1,25 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
 import ProductCards from './ProductCards';
-import { graphql, useStaticQuery } from 'gatsby'
-
-
+import content from '../../content/productData.json'
+// console.log(content);
 
 export default function ProductSection() {
-  const data = useStaticQuery(graphql`
-      query{
-        allMarkdownRemark(filter: {fileAbsolutePath: {regex: "/content/HomeProjects/i"}}, sort: {fields: frontmatter___title}) {
-    edges {
-      node {
-         frontmatter {
-          title
-          readMoreText
-        }
-        html
-      }
-    }
-  }
-  }
-  `)
-  const projects = data.allMarkdownRemark.edges;
     return(
         <section id="projects">
           <div className="container project-con">  
             <SectionTitle 
             title="Our Products" 
             subtitle="We highly recommend you place an order by using the option below:"
-            />
-          <ProductCards content ={projects} />
+          />
+          <div className="row pt-2 pb-3 shadow mb-2">
+            {
+              content.map(({text,image}) => (
+                <ProductCards caption={text} image={image} />)
+              )
+            }
+          {/* <ProductCards caption={content[0].text0} image={content[0].Image0} /> */}
+        </div>
           </div>
         </section>
     );
