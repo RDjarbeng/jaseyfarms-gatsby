@@ -11,7 +11,7 @@ import './App.scss';
 
 const Layout = (props) => {
     return (
-        <div>
+        <div className="container-fluid p-0">
             <Header />
             {props.children}
             <Footer />
