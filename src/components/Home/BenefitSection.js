@@ -1,11 +1,11 @@
 import React from 'react';
 import SectionTitle from './SectionTitle';
-import BenefitCards from './BenefitCards';
+import BenefitCard from './BenefitCard';
 import content from '../../content/BenefitsData.json'
 
 export default function ProductBenefits(){
     return(
-        <section id="projects-benefits" className="" style={{borderTop: '2px solid black'}}>
+        <section id="projects-benefits" className="" >
             <div className="container project-con section-title-2">
                 <SectionTitle
                     title ="BENEFITS"
@@ -14,7 +14,7 @@ export default function ProductBenefits(){
                 <div className="row mt-2 mb-3 px-1 benefits-section">
                     {
                         content.map(value => (
-                            <BenefitCards text={value} />
+                            <BenefitCard text={value} />
                         ))
                     }
                     {/* <BenefitCards/> */}

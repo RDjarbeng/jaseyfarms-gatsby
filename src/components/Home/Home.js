@@ -2,6 +2,8 @@ import React from 'react';
 import ProductSection from './ProductSection';
 import Carousels from './Carousel';
 import ProductBenefits from './BenefitSection';
+import MakeOrderSection from './MakeOrderSection';
+import AboutSection from "./AboutSection";
 // import InvestorSection from './InvestorSection';
 // import CompanyHighlight from './CompanyHighlight';
 
@@ -11,7 +13,8 @@ export default function Home(){
             <Carousels />
             <ProductSection />
             <ProductBenefits />
-            {/* <InvestorSection /> */}
+            <MakeOrderSection />
+            <AboutSection />
             {/* <CompanyHighlight /> */}
         </React.Fragment>
     );
