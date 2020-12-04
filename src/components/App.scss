@@ -18,46 +18,25 @@ $darkBg: #018903e0;
   pointer-events: none;
 }
 
-.benefit-card{
-  background-color: $darkBg;
-  color: white;
+.benefits-section .card{
+  background-color: transparent;
+}
+.benefits-section .card span{
+  
 }
 
-.benefit-card:nth-child(even){
+.benefits-section.card:nth-child(even){
   background-color: $lightBg
 }
 
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.benefit-card{
+  background-color: $darkBg;
   color: white;
+  border-radius: .25rem;
+  vertical-align: middle;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 /* remove padding for nav links when minimized */
 @media only screen and (max-width: 990px) {
   .nav-menu a {

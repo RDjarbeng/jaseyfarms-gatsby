@@ -1,8 +1,8 @@
 import React from "react"
 import SectionTitle from "./SectionTitle"
-import BenefitCards from "./BenefitCards"
+import BenefitCards from "./BenefitCardJosh"
 
-export default function ProductBenefits() {
+export default function ProductBenefit() {
   return (
     <section
       id="projects-benefits"
