@@ -9,7 +9,7 @@ export default function ProductCards({caption, image}) {
     <React.Fragment>
       <div className="col-md-4 px-3 pb-2 ">
         <div className=" bg-white h-100 row" data-aos="fade-up">
-          <div className=" text-center text-white col-4" style={{ backgroundColor: 'green' }}>
+          <div className=" d-flex justify-content align-items-center text-center text-white col-4" style={{ backgroundColor: 'green' }}>
             {/* Bugudon Gold Mine - Awaham Project */}
             {caption}
           </div>
