@@ -6,18 +6,34 @@ import React from "react"
 export default function ProductCards({ caption, image }) {
   return (
     <React.Fragment>
-      <div className="col-md-4 px-3 pb-2 ">
-        <div className=" bg-white h-100 row" data-aos="fade-up">
-          <div
-            className=" d-flex justify-content align-items-center text-center text-white col-4"
-            style={{ backgroundColor: "green" }}
-          >
-            {/* Bugudon Gold Mine - Awaham Project */}
-            {caption}
-          </div>
-          <div className="col-8 overflow-auto d-inline-block">
-            <div className="  prod-img">
-              <img src={image} alt="vegetable" className=" img-fluid" />
+      <div className="col-md-4 p-0 ">
+        <div className="card mb-2 shadow-none border-0">
+          <div className="row no-gutters">
+            <div
+              className="col-md-4 bg-success"
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+              }}
+            >
+              <div className="card-body">
+                <h4 className="card-title text-center">{caption}</h4>
+              </div>
+            </div>
+            <div className="col-md-8">
+              <div
+                style={{
+                  height: "160px",
+                  objectFit: "contain",
+                }}
+              >
+                <img
+                  className="card-img-top w-100 h-100"
+                  src={image}
+                  alt="Card  cap 1"
+                />
+              </div>
             </div>
           </div>
         </div>

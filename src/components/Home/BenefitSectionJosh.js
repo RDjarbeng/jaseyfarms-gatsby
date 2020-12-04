@@ -7,7 +7,6 @@ export default function ProductBenefit() {
     <section
       id="projects-benefits"
       className="mt-4"
-      style={{ borderTop: "2px solid black" }}
     >
       <div className="container project-con section-title-2 mt-4">
         <SectionTitle

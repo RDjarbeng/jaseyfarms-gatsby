@@ -12,10 +12,10 @@ export default function ProductBenefits() {
           subtitle="A diet rich in vegetables can:"
         />
         <div className="row mt-2 mb-3 px-1 benefits-section">
-          {content.map(value => (
+          {/* {content.map(value => (
             <BenefitCard text={value} />
-          ))}
-          {/* <BenefitCards/> */}
+          ))} */}
+          <BenefitCard/>
         </div>
       </div>
     </section>
