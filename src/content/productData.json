@@ -1,27 +1,50 @@
 [
-{"text":"Lettuce",
-"image":"/img/v1.jpg"
-},
-{"text": "Tomato",
-"image": "/img/v2.png"},
-{"text": "Spinach",
-"image": "/img/v3.jpg"},
-{"text":"Carrot",
-"image":"/img/v4.jpg"},
-{"text":"Sweet Pepper",
-"image":"/img/v5.jpg"},
-{"text":"Okra",
-"image":"/img/v6.jpg"},
-{"text":"Cucumber",
-"image":"/img/v7.png"},
-{"text":"Chili Pepper",
-"image":"/img/v8.jpg"},
-{"text":"EggPlant (Garden-Eggs)",
-"image":"/img/v9.jpg"},
-{"text":"Cabbage",
-"image":"/img/v10.png"},
-{"text":"Hot Pepper",
-"image":"/img/v11.png"},
-{"text":"Onion",
-"image":"/img/v12.jpg"}
+    {
+        "text": "Lettuce",
+        "image": "/img/v1.jpg"
+    },
+    {
+        "text": "Tomato",
+        "image": "/img/v2.png"
+    },
+    {
+        "text": "Spinach",
+        "image": "/img/v3.jpg"
+    },
+    {
+        "text": "Carrot",
+        "image": "/img/v4.jpg"
+    },
+    {
+        "text": "Sweet Pepper",
+        "image": "/img/v5.jpg"
+    },
+    {
+        "text": "Okra",
+        "image": "/img/v6.jpg"
+    },
+    {
+        "text": "Cucumber",
+        "image": "/img/v7.png"
+    },
+    {
+        "text": "Chili Pepper",
+        "image": "/img/v8.jpg"
+    },
+    {
+        "text": "EggPlant (Garden-Eggs)",
+        "image": "/img/v9.jpg"
+    },
+    {
+        "text": "Cabbage",
+        "image": "/img/v10.png"
+    },
+    {
+        "text": "Hot Pepper",
+        "image": "/img/v11.png"
+    },
+    {
+        "text": "Onion",
+        "image": "/img/v12.jpg"
+    }
 ]
