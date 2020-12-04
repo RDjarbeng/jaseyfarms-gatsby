@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function BenefitCards({ text }) {
+export default function BenefitCard({ text }) {
   return (
     // benefit cards
     <React.Fragment>
