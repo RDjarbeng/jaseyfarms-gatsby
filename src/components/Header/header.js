@@ -42,17 +42,17 @@ export default function Header() {
             </Nav.Link>
             <Nav.Link className="nav-item">
               <Link to="/projects" activeClassName="active">
-                Projects
+                Order Now
               </Link>
             </Nav.Link>
             <Nav.Link className="nav-item">
               <Link to="/investors" activeClassName="active">
-                Investors {"&"} Off takers
+                About Us
               </Link>
             </Nav.Link>
             <Nav.Link className="nav-item">
               <Link to="/company" activeClassName="active">
-                Company
+                Our Vegetable
               </Link>
             </Nav.Link>
             <Nav.Link className="nav-item">
