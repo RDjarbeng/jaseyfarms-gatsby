@@ -3,6 +3,8 @@ $veryLight-green-bg: #13d00426;
 $navHeight: 70px;
 $lightBg: #05dd27ab;
 $darkBg: #018903e0;
+$lightGreen: #05dd27ab;
+$bootstrapSuccess: #28a745;
 .App {
   text-align: center;
 }
@@ -22,8 +24,14 @@ $darkBg: #018903e0;
   background-color: transparent;
 }
 
-.benefits-section.card:nth-child(even) {
-  background-color: $lightBg;
+.box-marker:nth-child(even) .benefit-box{
+  background-color: $lightGreen;
+  
+}
+
+.box-marker:nth-child(odd) .benefit-box{
+  background-color: $bootstrapSuccess;
+  color: white;
 }
 
 .benefit-card {

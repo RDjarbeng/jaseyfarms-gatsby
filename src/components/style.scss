@@ -1,5 +1,6 @@
 $veryLight-green-bg: #13d00426;
 $primaryColor: #018903e0;
+$lightGreen: #05dd27ab;
 
 /*benefits table*/
 .testimonial-card .card-up {
@@ -22,7 +23,7 @@ $primaryColor: #018903e0;
 }
 
 .light-green {
-  background-color: #05dd27ab;
+  background-color: $lightGreen;
 }
 
 .benefit-box {
