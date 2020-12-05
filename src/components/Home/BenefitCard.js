@@ -5,7 +5,7 @@ import content from "../../content/BenefitsData.json"
 //     <BenefitCard text={value} />
 //   ))
 // }
-export default function BenefitCard({ text }) {
+export default function BenefitCard() {
   return (
     // benefit cards
     <React.Fragment>
@@ -17,8 +17,8 @@ export default function BenefitCard({ text }) {
                 <div className="row">
                   {
                     content.map(value => (
-                      <div className="col-md-3 mb-3 box-marker">
-                        <div className="col benefit-box p-2  rounded shadow text-center vert-align">
+                      <div className="col-md-3 col-sm-4 mb-3 box-marker">
+                        <div className="col benefit-box p-2  rounded shadow text-center vert-align ">
                           <p>{value}</p>
                         </div>
                       </div>

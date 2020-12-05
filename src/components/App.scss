@@ -20,6 +20,17 @@ $bootstrapSuccess: #28a745;
   pointer-events: none;
 }
 
+.product-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.product-image{
+  height: 180px;
+  object-fit: contain;
+}
 .benefits-section .card {
   background-color: transparent;
 }
