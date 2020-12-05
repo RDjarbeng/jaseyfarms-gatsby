@@ -125,9 +125,6 @@ function Mod({ text }) {
           </button>
         </Modal.Footer>
       </Modal>
-      <form>
-        <input type="text" />
-      </form>
     </>
   )
 }
