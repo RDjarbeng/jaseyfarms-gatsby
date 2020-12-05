@@ -1,6 +1,5 @@
 import React from "react"
 import { Navbar, Nav } from "react-bootstrap"
-
 import { Link } from "gatsby"
 
 export default function Header() {
@@ -41,7 +40,7 @@ export default function Header() {
               </Link>
             </Nav.Link>
             <Nav.Link className="nav-item">
-              <Link to="/projects" activeClassName="active">
+              <Link to="/#order" activeClassName="active">
                 Order Now
               </Link>
             </Nav.Link>

@@ -2,6 +2,11 @@ $veryLight-green-bg: #13d00426;
 $primaryColor: #018903e0;
 $lightGreen: #05dd27ab;
 
+// smooth-scroll
+html {
+  scroll-behavior: smooth;
+}
+
 /*benefits table*/
 .testimonial-card .card-up {
   height: 120px;

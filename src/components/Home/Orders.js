@@ -3,7 +3,7 @@ import SectionTitle from "./SectionTitle"
 
 const Orders = () => {
   return (
-    <section className="">
+    <section className="" id="order">
       <div className="container project-con section-title-2 mt-4">
         <SectionTitle title="Make an Order" />
         <div className="row pt-3">
