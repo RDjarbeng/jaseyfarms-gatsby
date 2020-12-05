@@ -2,6 +2,7 @@ import React, { useState, useCallback } from "react"
 import Gallery from "react-photo-gallery"
 import Carousel, { Modal, ModalGateway } from "react-images"
 import { photos } from "./photos"
+import SectionTitle from "../Home/SectionTitle"
 
 function Veges() {
   const [currentImage, setCurrentImage] = useState(0)
@@ -18,7 +19,15 @@ function Veges() {
   }
 
   return (
-    <div className="pt-5">
+    <div className="pt-2">
+      <div
+        className="container-fluid"
+        style={{ backgroundColor: "rgba(225, 229, 228, 0.89)" }}
+      >
+        <div className="mt-5 pt-3 mb-3 pb-2">
+          <SectionTitle title="OUR FARM PRODUCE" />
+        </div>
+      </div>
       <div className="pt-4"></div>
       <Gallery photos={photos} onClick={openLightbox} />
       <ModalGateway>
