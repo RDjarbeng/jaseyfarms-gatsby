@@ -46,7 +46,7 @@ export default function Header() {
               </Link>
             </Nav.Link>
             <Nav.Link className="nav-item">
-              <Link to="/investors" activeClassName="active">
+              <Link to="/about" activeClassName="active">
                 About Us
               </Link>
             </Nav.Link>

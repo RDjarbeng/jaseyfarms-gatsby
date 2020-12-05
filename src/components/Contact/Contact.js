@@ -1,12 +1,9 @@
 import React from "react"
-import Carousels from "../Carousel/Carousels"
 import SectionTitle from "../Home/SectionTitle"
 import { ContactData } from "./ContactData"
 import ContactCards from "./ContactCards"
 import Map from "./Map"
 import ContactForm from "./ContactForm"
-import data from "../../content/contactData.json"
-import ReactMarkdownWithHtml from "react-markdown/with-html"
 
 export default function Contact() {
   return (

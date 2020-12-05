@@ -1,14 +1,13 @@
-import React from "react";
-import Layout from '../components/layout'
+import React from "react"
+import Layout from "../components/layout"
+import About from "../components/About/About"
 // import App from "../components/App";
-import CompanyHome  from "../components/Portfolio/Company";
+// import CompanyHome  from "../components/Portfolio/Company";
 
-// import 'react-bootstrap'
 export default function Company() {
-    return (
-        <Layout>
-         <CompanyHome />
-        </Layout>
-    )
-
+  return (
+    <Layout>
+      <About />
+    </Layout>
+  )
 }
