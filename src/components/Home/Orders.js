@@ -1,6 +1,6 @@
 import React from "react"
 import SectionTitle from "./SectionTitle"
-import Mod from "./Modal"
+import { ModOrder, ModEmail } from "./Modal"
 
 const Orders = () => {
   return (
@@ -87,7 +87,7 @@ const Orders = () => {
               <div className="card-body text-center">
                 <h4 className="card-title">Place an order</h4>
                 <hr />
-                <Mod text="Tap to order healthy, quality and affordable vegetables" />
+                <ModOrder text="Tap to order healthy, quality and affordable vegetables" />
                 {/* <p>Tap to order healthy, quality and affordable vegetables</p> */}
               </div>
             </div>
@@ -128,8 +128,8 @@ const Orders = () => {
               <div className="card-body text-center">
                 <h4 className="card-title">Engage Us</h4>
                 <hr />
-
-                <p>Send us an email</p>
+                <ModEmail text="Send us an email" />
+                {/* <p>Send us an email</p> */}
               </div>
             </div>
           </div>
