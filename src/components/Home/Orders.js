@@ -87,7 +87,9 @@ const Orders = () => {
               <div className="card-body text-center">
                 <h4 className="card-title">Place an order</h4>
                 <hr />
-                <ModOrder text="Tap to order healthy, quality and affordable vegetables" />
+                <div className='btn-outline-success'>
+                  <ModOrder text="Tap to order healthy, quality and affordable vegetables" />
+                </div>
                 {/* <p>Tap to order healthy, quality and affordable vegetables</p> */}
               </div>
             </div>
@@ -128,7 +130,9 @@ const Orders = () => {
               <div className="card-body text-center">
                 <h4 className="card-title">Engage Us</h4>
                 <hr />
-                <ModEmail text="Send us an email" />
+                <div className='btn-outline-success'>
+                  <ModEmail text="Send us an email" />
+                </div>
                 {/* <p>Send us an email</p> */}
               </div>
             </div>

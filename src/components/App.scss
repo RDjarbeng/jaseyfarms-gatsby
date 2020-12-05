@@ -52,6 +52,10 @@ $bootstrapSuccess: #28a745;
   vertical-align: middle;
 }
 
+.order-btn:hover{
+  color:white;
+}
+
 /* remove padding for nav links when minimized */
 @media only screen and (max-width: 990px) {
   .nav-menu a {

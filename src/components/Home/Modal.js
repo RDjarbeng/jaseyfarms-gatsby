@@ -9,7 +9,7 @@ export const ModOrder = ({ text }) => {
 
   return (
     <>
-      <button className="btn border-0" onClick={handleShow}>
+      <button className="btn  border-success order-btn " onClick={handleShow}>
         {text}
       </button>
 
@@ -133,7 +133,7 @@ export const ModEmail = ({ text }) => {
   const handleShow = () => setShow(true)
   return (
     <>
-      <button className="btn border-0" onClick={handleShow}>
+      <button className="btn  border-success order-btn" onClick={handleShow}>
         {text}
       </button>
 
