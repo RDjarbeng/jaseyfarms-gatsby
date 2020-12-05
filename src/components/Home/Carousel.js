@@ -4,19 +4,6 @@ import Carousel from "react-bootstrap/Carousel"
 import images from "../../content/homePageCarousel.json"
 
 export default function Carousels() {
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     markdownRemark(fileAbsolutePath: { regex: "/homeCarousel.md/i" }) {
-  //       frontmatter {
-  //         image1
-  //         image2
-  //         image3
-  //         vision
-  //       }
-  //     }
-  //   }
-  // `)
-  // const {  vision } = data.markdownRemark.frontmatter
   const { image1, image2, image3, caption } = images
   return (
     <section id="intro">
