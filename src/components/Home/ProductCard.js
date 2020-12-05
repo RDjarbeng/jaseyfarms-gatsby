@@ -10,19 +10,16 @@ export default function ProductCards({ caption, image }) {
       <div className="container shadow mb-3 mt-4">
         <div className="row pt-3 pb-3 mb-2 pr-3 pl-3">
           {content.map(({ text, image }) => (
-            <div className="col-lg-4 col-md-6 p-0 ">
+            <div key={text} className="col-lg-4 col-md-6 p-0 ">
               <div className="card mb-2 shadow-none border-0">
                 <div className="row no-gutters ">
-                  <div
-                    className="col-md-4 bg-success product-text"
-                  >
+                  <div className="col-md-4 bg-success product-text">
                     <div className="card-body d-flex">
                       <h4 className="card-title text-center">{text}</h4>
                     </div>
                   </div>
                   <div className="col-md-8">
-                    <div className="product-image "
-                    >
+                    <div className="product-image ">
                       <img
                         className="card-img-top w-100 h-100"
                         src={image}
@@ -32,12 +29,10 @@ export default function ProductCards({ caption, image }) {
                   </div>
                 </div>
               </div>
-            </div>)
-          )
-          }
             </div>
-            </div>
-            
+          ))}
+        </div>
+      </div>
     </React.Fragment>
   )
 }
