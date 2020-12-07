@@ -1,0 +1,76 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+  
+  # repo: RDjarbeng/bugudon-gatsby
+# backend:
+#   name: test-repo
+# when using the default proxy server port
+# local_backend: true
+
+# local_backend:
+#   # when using a custom proxy server port
+#   url: http://localhost:8082/api/v1
+#   # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+#   allowed_hosts: ['192.168.0.1']
+
+media_folder: "static/img" # Media files will be stored in the repo under static/img
+public_folder: "/img"
+
+
+collections:
+# Home page
+  - label: "Home Page"
+    name: "Home"
+    identifier_field: name
+    files:
+      - label: "Home Carousel(Sliding images)"
+        name: "Carousel"
+        file: "src/content/homePageCarousel.json"
+        fields:
+          - {label: "Carousel Image 1", name: "image1", widget: "image", }
+          - {label: "Carousel Image 2", name: "image2", widget: "image", }
+          - {label: "Carousel Image 3", name: "image3", widget: "image", }
+          - {label: "Caption(Text below images)", name: "caption", widget: "string"}
+
+      - label: "Products Section"
+        name: "Products"
+        file: "src/content/productData.json"
+        fields:
+          - label: "Products"
+            name: "productList"
+            widget: "list"
+            # allow_add: false #remember to enable this
+            # summary: 'product'
+            fields:
+              - {label: "Caption", name: "text", widget: string,}
+              - {label: Image, name: image, widget: image}
+# Contact page
+  - label: "Contact Page "
+    name: "Contact"
+    identifier_field: name
+    files:
+      - label: "Contact page details"
+        name: "Contact page"
+        file: "src/content/contactData.json"
+        fields:
+          - {label: "Help Text", name: "helptext", widget: "string"}
+          - {label: "Location information", name: "locationInfo", widget: "string"}
+          - {label: "Postal address information", name: "postalInfo", widget: "string"}
+          - {label: "Email information", name: "emailInfo", widget: "string"}
+          - {label: "Phone information ", name: "phoneInfo", widget: "string"}
+          - {label: "Careers information" , name: "careers", widget: "string"}
+
+  # - label: "Home Page Carousel"
+  #   name: "homeCarousel"
+  #   files:
+  #     - label: "Home Page Carousel top (sliding images)"
+  #       name: "homepage carousel"
+  #       file: "src/content/homeCarousel.md"
+  #       fields:
+  #         - {label: "Title", name: "title", widget: "string", default: "images"}
+  #         - {label: "Image One", name: "image1", widget: "image", default: "ghana.png"}
+  #         - {label: "Image Two", name: "image2", widget: "image", default: "ghana.png"}
+  #         - {label: "Image Three", name: "image3", widget: "image", default: "ghana.png"}
+  #         - {label: "Vision under images", name: "vision", widget: "string"}
+
