@@ -1,4 +1,4 @@
-[
+{"productList":[
     {
         "text": "Lettuce",
         "image": "/img/v1.jpg"
@@ -47,4 +47,4 @@
         "text": "Onion",
         "image": "/img/v12.jpg"
     }
-]
+]}

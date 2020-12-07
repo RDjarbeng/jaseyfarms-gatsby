@@ -1,7 +1,6 @@
 backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
-
   # repo: RDjarbeng/bugudon-gatsby
 # backend:
 #   name: test-repo
@@ -43,7 +42,8 @@ collections:
             # allow_add: false #remember to enable this
             # summary: 'product'
             fields:
-              [{label: "Caption", name: "text", widget: string,}, {label: Image, name: image, widget: image}]
+              - {label: "Caption", name: "text", widget: "string", }
+              - {label: "Image", name: "image", widget: "image", }
 # Contact page
   - label: "Contact Page "
     name: "Contact"
