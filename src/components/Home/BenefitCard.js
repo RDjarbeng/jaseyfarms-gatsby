@@ -16,8 +16,8 @@ export default function BenefitCard() {
             <div className="align-middle">
                 <div className="row">
                   {
-                    content.map(value => (
-                      <div className="col-md-3 col-sm-4 mb-3 box-marker">
+                    content.map((value, i) => (
+                      <div className="col-md-3 col-sm-4 mb-3 box-marker" key={i}>
                         <div className="col benefit-box p-2  rounded shadow text-center vert-align ">
                           <p>{value}</p>
                         </div>

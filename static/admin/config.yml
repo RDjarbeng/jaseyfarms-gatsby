@@ -39,7 +39,8 @@ collections:
           - label: "Products"
             name: "productList"
             widget: "list"
-            # allow_add: false #remember to enable this
+            add_to_top: true
+            # allow_add: false #todo: remember to enable this
             # summary: 'product'
             fields:
               - {label: "Caption", name: "text", widget: "string", }
