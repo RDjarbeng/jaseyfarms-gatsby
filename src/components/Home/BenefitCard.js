@@ -1,5 +1,5 @@
 import React from "react"
-import {BenefitList as content} from "../../content/BenefitsData.json"
+import {BenefitList as content} from "../../content/benefitsData.json"
 // {
 //   content.map(value => (
 //     <BenefitCard text={value} />
