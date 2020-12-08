@@ -45,6 +45,19 @@ collections:
             fields:
               - {label: "Caption", name: "text", widget: "string", }
               - {label: "Image", name: "image", widget: "image", }
+
+      - label: "Benefits Section"
+        name: "Benefits"
+        file: "src/content/benefitsData.json"
+        fields:
+          - label: "Benefits"
+            name: "BenefitList"
+            widget: "list"
+            add_to_top: true
+            allow_add: false 
+            fields:
+              - {label: "Benefit", name: "text", widget: "string", }
+                        
 # Contact page
   - label: "Contact Page "
     name: "Contact"

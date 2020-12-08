@@ -1,7 +1,7 @@
 import React from "react"
-import contentData from "../../content/productData.json"
+import {productList as content} from "../../content/productData.json"
 
-let content = contentData.productList
+// let content = contentData.productList
 // import ReadMoreAndLess from "react-read-more-less"
 // import parse from 'html-react-parser';//to parse the html correctly, dangerouslySetInnerHtml was not working
 // import ReactMarkdownWithHtml from "react-markdown/with-html"
@@ -25,7 +25,7 @@ export default function ProductCards({ caption, image }) {
                       <img
                         className="card-img-top w-100 h-100"
                         src={image}
-                        alt="Card  cap 1"
+                        alt={text}
                       />
                     </div>
                   </div>

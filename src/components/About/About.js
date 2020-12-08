@@ -7,7 +7,7 @@ const AboutUs = () => {
       <div className="container">
         <br />
         <div className="mt-5 pt-3 mb-3 pb-2">
-          <SectionTitle title="CONTACT US" />
+          <SectionTitle title="ABOUT US" />
         </div>
 
         <div className="row">

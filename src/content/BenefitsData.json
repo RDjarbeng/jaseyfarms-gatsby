@@ -1,10 +1,28 @@
-[
-    "Lower the risk of heart disease and stroke",
-    "Lower blood pressure for persons with high blood pressure",
-    "Provide protection against cancer",
-    "Help reduce the risk of type 2 diabetes",
-    "Support weight loss",
-    "Relieve or prevent constipation",
-    "May help prevent diverticulosis",
-    "Help prevent two common aging-related eye diseases such as cataracts and macular degeneration"
-]
+{
+    "BenefitList": [
+        {
+            "text": "Lower the risk of heart disease and stroke"
+        },
+        {
+            "text": "Lower blood pressure for persons with high blood pressure"
+        },
+        {
+            "text": "Provide protection against cancer"
+        },
+        {
+            "text": "Help reduce the risk of type 2 diabetes"
+        },
+        {
+            "text": "Support weight loss"
+        },
+        {
+            "text": "Relieve or prevent constipation"
+        },
+        {
+            "text": "May help prevent diverticulosis"
+        },
+        {
+            "text": "Help prevent two common aging-related eye diseases such as cataracts and macular degeneration"
+        }
+    ]
+}
