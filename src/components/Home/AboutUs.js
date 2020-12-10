@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import { FaChartBar, FaRocket, FaBriefcase } from "react-icons/fa"
 import { IconContext } from "react-icons"
-import {mission, objective, approach} from '../../content/HomeAboutUsData.json'
+import {mission, objective, approach} from '../../content/homeAboutData.json'
 console.log(mission, objective, approach);
 const AboutUs = () => {
   return (

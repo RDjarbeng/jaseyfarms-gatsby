@@ -61,7 +61,7 @@ collections:
 
       - label: "About Us section"
         name: "homeAbout"
-        file: "src/content/HomeAboutUSData.json"
+        file: "src/content/homeAboutData.json"
         fields:
           - {label: "Objective", name: "objective", widget: "string"}
           - {label: "Mission", name: "mission", widget: "string"}
