@@ -2,7 +2,8 @@ import React from "react"
 import { Link } from "gatsby"
 import { FaChartBar, FaRocket, FaBriefcase } from "react-icons/fa"
 import { IconContext } from "react-icons"
-
+import {mission, objective, approach} from '../../content/HomeAboutUsData.json'
+console.log(mission, objective, approach);
 const AboutUs = () => {
   return (
     <section id="about">
@@ -24,9 +25,7 @@ const AboutUs = () => {
               </div>
               <div className=" card-body text-justify col-sm-12">
                 <p className="card-text d-flex" style={{ width: "100%" }}>
-                  Our objective is to improve the well-being of our consumers
-                  through the cultivation and supply of well-grown farm products
-                  with specific emphasis on vegetables.
+                  {objective}
                 </p>
               </div>
             </div>
@@ -41,10 +40,7 @@ const AboutUs = () => {
               </div>
               <div className=" card-body text-justify col-sm-12">
                 <p className="card-text">
-                  Our focus is to develop our greenhouse farming know-how,
-                  capability, and output progressively to enable us to supply
-                  fresh, healthy, and quality vegetables at competitive rates
-                  with the least impact on the environment
+                  {mission}
                 </p>
               </div>
             </div>
@@ -59,13 +55,7 @@ const AboutUs = () => {
               </div>
               <div className=" card-body text-justify col-sm-12">
                 <p className="card-text">
-                  Our approach involves using a greenhouse-controlled
-                  environment for farming various vegetables in commercial
-                  quantities using no pesticides in the cultivation process.
-                  More so, we mindfully endeavor to ensure less usage of water
-                  and energy to lower our carbon footprint. We believe in
-                  sustainable farming to meet the needs of our growing
-                  population.{" "}
+                  {approach}
                 </p>
               </div>
             </div>
