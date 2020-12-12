@@ -81,14 +81,16 @@ collections:
     files:
       - label: "Vegetable details"
         name: "Vegetables"
-        file: "src/content/contactData.json"
+        file: "src/content/vegesData.json"
         fields:
-          - {label: "Help Text", name: "helptext", widget: "string"}
-          - {label: "Location information", name: "locationInfo", widget: "string"}
-          - {label: "Postal address information", name: "postalInfo", widget: "string"}
-          - {label: "Email information", name: "emailInfo", widget: "string"}
-          - {label: "Phone information ", name: "phoneInfo", widget: "string"}
-          - {label: "Careers information" , name: "careers", widget: "string"}
+          - label: "Vegetables"
+            name: "veges"
+            widget: "list"
+            add_to_top: true
+            allow_add: false 
+            fields:
+              - {label: "Vegetable Caption", name: "text", widget: "string", default: 'Lettuce' }
+              - {label: "Image", name: "image", widget: "image", }
 
 # Contact page
   - label: "Contact Page "
