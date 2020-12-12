@@ -1,6 +1,13 @@
 import { data } from '../../content/VegesData.json'
 // console.log( data);
-export const photos = data.map((value) => Object.assign({ width: 4, height: 3, title: "Lettuce" , ...value })
+  let initial ={
+    width: 4,
+    height: 3,
+  }
+export const photos = data.map((value) => ({
+        ...value, ...initial 
+    }
+    )
 )
 
 // console.log('*****', photos);
