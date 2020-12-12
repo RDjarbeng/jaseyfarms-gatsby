@@ -1,10 +1,11 @@
-# backend:
-#   name: git-gateway
+backend:
+  name: git-gateway
+
 #   branch: master # Branch to update (optional; defaults to master)
 
   # repo: RDjarbeng/bugudon-gatsby
-backend:
-  name: test-repo
+# backend:
+#   name: test-repo
 
 # when using the default proxy server port
 # local_backend: true
