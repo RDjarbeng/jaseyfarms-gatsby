@@ -102,8 +102,9 @@ collections:
         name: "aboutUs"
         file: "src/content/aboutData.json"
         fields:
-          - {label: "About Us section", name: "aboutus", widget: "markdown"}
-          - {label: "Strategic postioning section", name: "strategic", widget: "markdown"}
+          - {label: "About Us text", name: "aboutus", widget: "markdown"}
+          - {label: "Subtitle (strategic)", name: "subtitle", widget: "string"}
+          - {label: "Strategic postioning text", name: "strategic", widget: "markdown"}
           - {label: "Vision", name: "vision", widget: "string"}
           - {label: "Mission", name: "mission", widget: "string"}
           - {label: "Values", name: "values", widget: "string"}
