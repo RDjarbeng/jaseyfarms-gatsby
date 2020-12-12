@@ -4,6 +4,7 @@ import Carousel, { Modal, ModalGateway } from "react-images"
 import { photos } from "./photos"
 import SectionTitle from "../Home/SectionTitle"
 
+console.log('*****', photos);
 function Veges() {
   const [currentImage, setCurrentImage] = useState(0)
   const [viewerIsOpen, setViewerIsOpen] = useState(false)

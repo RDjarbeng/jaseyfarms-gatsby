@@ -13,10 +13,10 @@ export default function Footer() {
               <h4>Links</h4>
               <ul>
                 <li>
-                  <Link to="/projects">Projects</Link>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/investors">Investors & Off takers</Link>
+                  <Link to="/#order">Order</Link>
                 </li>
                 <li>
                   <Link to="/company">Company</Link>

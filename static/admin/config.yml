@@ -1,10 +1,11 @@
-backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+# backend:
+#   name: git-gateway
+#   branch: master # Branch to update (optional; defaults to master)
 
   # repo: RDjarbeng/bugudon-gatsby
-# backend:
-#   name: test-repo
+backend:
+  name: test-repo
+
 # when using the default proxy server port
 # local_backend: true
 
@@ -59,6 +60,12 @@ collections:
             fields:
               - {label: "Benefit", name: "text", widget: "string", }
 
+      - label: "Make Order section"
+        name: "order"
+        file: "src/content/orderData.json"
+        fields:
+          - {label: "Contact a Sales Executive - Number", name: "contact", widget: "string"}
+
       - label: "About Us section"
         name: "homeAbout"
         file: "src/content/homeAboutData.json"
@@ -67,6 +74,22 @@ collections:
           - {label: "Mission", name: "mission", widget: "string"}
           - {label: "Approach", name: "approach", widget: "string"}
    
+# Our vegetables page
+  - label: "Our Vegetables Page "
+    name: "ourVegetables"
+    identifier_field: name
+    files:
+      - label: "Vegetable details"
+        name: "Vegetables"
+        file: "src/content/contactData.json"
+        fields:
+          - {label: "Help Text", name: "helptext", widget: "string"}
+          - {label: "Location information", name: "locationInfo", widget: "string"}
+          - {label: "Postal address information", name: "postalInfo", widget: "string"}
+          - {label: "Email information", name: "emailInfo", widget: "string"}
+          - {label: "Phone information ", name: "phoneInfo", widget: "string"}
+          - {label: "Careers information" , name: "careers", widget: "string"}
+
 # Contact page
   - label: "Contact Page "
     name: "Contact"
