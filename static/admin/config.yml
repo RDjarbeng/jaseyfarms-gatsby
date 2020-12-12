@@ -84,13 +84,13 @@ collections:
         file: "src/content/vegesData.json"
         fields:
           - label: "Vegetables"
-            name: "veges"
+            name: "data"
             widget: "list"
             add_to_top: true
             allow_add: false 
             fields:
-              - {label: "Vegetable Caption", name: "text", widget: "string", default: 'Lettuce' }
-              - {label: "Image", name: "image", widget: "image", }
+              - {label: "Vegetable Caption", name: "title", widget: "string", default: 'Lettuce' }
+              - {label: "Image", name: "src", widget: "image", }
 
 # Contact page
   - label: "Contact Page "
