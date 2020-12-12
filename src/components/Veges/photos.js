@@ -1,4 +1,4 @@
-import { data } from '../../content/VegesData.json'
+import { data } from '../../content/vegesData.json'
 // console.log( data);
   let initial ={
     width: 4,
