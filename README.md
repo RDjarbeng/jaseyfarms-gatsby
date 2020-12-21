@@ -6,9 +6,9 @@
   </a>
 </p>
 
-# Jasey Mining site is live at
-
-  https://jaseyfarms.netlify.app/
+# Jasey Mining 
+## Site is live at
+> https://jaseyfarms.netlify.app/
 
 
 ## 🚀 Quick start
