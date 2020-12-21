@@ -6,8 +6,8 @@
   </a>
 </p>
 
-# Jasey Mining 
-## Site is live at
+# Jasey Mining - built with Gatsby
+## Site is live at below link
 > https://jaseyfarms.netlify.app/
 
 
